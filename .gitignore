@@ -1,9 +1,17 @@
-# Datos: se descargan con un script, no se suben
+# Raw dara: downloaded using scrips 
 data/raw/*
 !data/raw/.gitkeep
 
+# Processed datasets
+data/processed/*
+!data/procesed/.gitignore
+
 # Python 
 __pycache__/
+
+# Conda environments (if created inside the repository)
+.conda/
+env/
 
 # Jupyter
 .ipynb_checkpoints/
